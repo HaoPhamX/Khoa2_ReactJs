@@ -1,12 +1,17 @@
 import React, { Component } from 'react'
-import ProductList from './LayoutBanGiay/ProductList'
-import dataShoes from './Data/dataShoes.json'
+// import ProductList from './LayoutBanGiay/ProductList'
+// import dataShoes from './Data/dataShoes.json'
+import DanhSachSanPham from './LayoutPhone/DanhSachSanPham'
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        <div className="row">
+
+        <DanhSachSanPham/>
+
+        {/* LayoutBanGiay */}
+        {/* <div className="row">
           <div class="col-2">
             <div className="nav flex-column nav-pills justify-content-center" id="v-pills-tab">
               <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#home" role="tab" >Home</a>
@@ -23,7 +28,7 @@ export default class App extends Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     )
   }
